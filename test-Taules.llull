@@ -1,0 +1,21 @@
+void main() {
+    array(p, 5)
+    q = p
+    write("Veiem que p i q no fan referència a la mateixa taula")
+    write(p)
+    for (i = 0; i < 5; i = i + 1) {
+        t = p
+        set(t, i, i)
+        set(q, i, t)
+    }
+    write(q)
+    write("t abans de cridar la funció ref")
+    write(t)
+    ref(t)
+    write("t després de cridar la funció ref")
+    write(t)
+}
+
+void ref(p) {
+    set(p, 0, p)
+}

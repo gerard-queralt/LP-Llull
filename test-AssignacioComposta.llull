@@ -1,0 +1,21 @@
+void main() {                                                                                                                                                                                                                                                                  
+    read(a, b)                                                                                                                                                                                                                                                                 
+    a = copyA                                                                                                                                                                                                                                                                  
+    a += b                                                                                                                                                                                                                                                                     
+    write("a += b ->", "a =", a)                                                                                                                                                                                                                                               
+    a = copyA                                                                                                                                                                                                                                                                  
+    a -= b                                                                                                                                                                                                                                                                     
+    write("a -= b ->", "a =", a)                                                                                                                                                                                                                                               
+    a = copyA                                                                                                                                                                                                                                                                  
+    a *= b                                                                                                                                                                                                                                                                     
+    write("a *= b ->", "a =", a)                                                                                                                                                                                                                                               
+    a = copyA                                                                                                                                                                                                                                                                  
+    a /= b                                                                                                                                                                                                                                                                     
+    write("a /= b ->", "a =", a)                                                                                                                                                                                                                                               
+    a = copyA                                                                                                                                                                                                                                                                  
+    a %= b
+    write("a %= b ->", "a =", a)
+    a = copyA
+    a ^= b
+    write("a ^= b ->", "a =", a)
+}

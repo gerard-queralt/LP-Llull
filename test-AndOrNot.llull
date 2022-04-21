@@ -1,0 +1,18 @@
+void main() {
+    write("Escriu dos nombres")
+    read(a)
+    read(b)
+    testParells(a, b)
+}
+
+void testParells(a, b) {
+    aParell = !(a % 2)
+    bParell = !(b % 2)
+    if (aParell && bParell) {
+        write("Els dos son parells")
+    } else if (aParell || bParell) {
+        write("Nomes un dels dos es parell")                                                                                                                                                                                                                                   
+    } else {                                                                                                                                                                                                                                                                   
+        write("Cap dels dos es parell")                                                                                                                                                                                                                                        
+    }                                                                                                                                                                                                                                                                          
+}

@@ -1,0 +1,9 @@
+void main() {
+    if (1)
+        write("if sense claus!")
+    else if (0)
+        write("El Beatificador mostra bé els 'else if' sense claus")
+    else write("El Beatificador mostra bé els 'else' sense claus")
+    for (i = 0; i < 5; i = i + 1)
+        write("i =", i)
+}
